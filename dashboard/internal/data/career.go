@@ -477,6 +477,8 @@ func NormalizeStatus(raw string) string {
 
 	switch {
 	// Most restrictive first — accepts both English and Spanish
+	case strings.Contains(s, "networking") || s == "pipeline" || s == "intro" || s == "warm-contact":
+		return "networking"
 	case strings.Contains(s, "no aplicar") || strings.Contains(s, "no_aplicar") || s == "skip" || strings.Contains(s, "geo blocker"):
 		return "skip"
 	case strings.Contains(s, "interview") || strings.Contains(s, "entrevista"):

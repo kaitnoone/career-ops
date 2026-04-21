@@ -7,6 +7,12 @@
 # no dates, no extra text. Dates go in the date column.
 
 states:
+  - id: networking
+    label: Networking
+    aliases: [pipeline, intro, warm-contact]
+    description: Warm talent-pipeline contact; no open role or application yet
+    dashboard_group: networking
+
   - id: evaluated
     label: Evaluated
     aliases: [evaluada]
