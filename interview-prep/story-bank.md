@@ -25,17 +25,6 @@ This file accumulates your best interview stories over time. Each evaluation (Bl
 **Best for questions about:** [list of question types this story answers]
 -->
 
-### [Scale + Accessibility] Recharge Subscription Widget Overhaul
-**Source:** Report #005 — Indeed — Senior Software Engineer (Front End)
-**S:** Merchants needed a more accessible subscription experience; the platform served thousands of merchants simultaneously with a diverse customer base including users relying on assistive technology.
-**T:** Own the accessibility overhaul end-to-end — from vendor partnership to implementation.
-**A:** Partnered with adaptive technology vendors; led implementation across the subscription widget; collaborated with product and GTM teams.
-**R:** Improved integration reliability across a diverse merchant base; work directly impacted retention goals.
-**Reflection:** Accessibility at scale requires cross-team alignment earlier than most teams plan for. By the time you're in implementation, the architectural decisions are already made.
-**Best for questions about:** Technical ownership, accessibility, cross-functional collaboration, large-scale frontend work, impact
-
----
-
 ### [Architecture + Business Alignment] Sleepme Middleware Overhaul
 **Source:** Report #005 — Indeed — Senior Software Engineer (Front End)
 **S:** Sleepme was undergoing a full company rebrand with tight timelines. The existing middleware didn't align with the new technical and business direction.
@@ -58,14 +47,15 @@ This file accumulates your best interview stories over time. Each evaluation (Bl
 
 ---
 
-### [Cross-functional Advocacy] Recharge Voice of the Merchant
+### [Cross-functional Influence] Recharge — UX Judgment in Engineering Decisions
 **Source:** Report #005 — Indeed — Senior Software Engineer (Front End)
-**S:** Merchant feedback was being collected but wasn't consistently reaching engineering or influencing prioritization.
-**T:** Formally bring the user voice into roadmap planning as a frontend engineer.
-**A:** Synthesized customer feedback into requirements; advocated in planning sessions; influenced prioritization decisions across engineering and product.
-**R:** Engineering and product became more aligned on merchant needs; became the de facto user advocate in technical planning.
-**Reflection:** Engineers who can represent users without a PM in the room are rare and valuable. Make that role explicit — don't just do it informally.
-**Best for questions about:** Product collaboration, stakeholder management, customer empathy, influence without authority
+**Scope note:** Kaitlyn did NOT have direct merchant conversations at Recharge — she did not have that access. Do NOT frame this as "voice of the merchant," "spoke for customers," "synthesized customer feedback," or "de facto user advocate." Use cv.md verbs only: brought UX judgment into engineering decisions, advocated for user-centered outcomes through product intuition and design sense, influenced prioritization.
+**S:** Engineering and roadmap decisions at Recharge benefited from someone willing to bring UX judgment and product intuition into technical conversations — questions about how a decision would land for the user often surfaced late or not at all.
+**T:** Bring user-experience judgment into engineering decisions and roadmap discussions as the frontend engineer in the room.
+**A:** Brought UX judgment and design sense into engineering decisions; advocated for user-centered outcomes during planning; influenced prioritization across engineering and product based on product intuition rather than direct merchant feedback.
+**R:** Engineering and product decisions more consistently weighted user-experience considerations; her input shaped prioritization on UX-sensitive work.
+**Reflection:** Influence as a frontend IC comes from showing up to planning conversations with sharp questions about user experience — not from claiming to speak for users you haven't talked to. The honest framing matters because it's the difference between being trusted long-term and being caught overstating once.
+**Best for questions about:** Cross-functional collaboration, influencing without authority, frontend IC scope, product-engineering partnership — NOT for "tell me how you talked to customers" or "tell me about being the voice of the user."
 
 ---
 
@@ -190,17 +180,6 @@ This file accumulates your best interview stories over time. Each evaluation (Bl
 
 ---
 
-### [Component Systems + Developer Experience] Recharge Storybook + Design System
-**Source:** Reports #029, #027 — WorkOS Frontend, Hume AI Frontend
-**S:** Recharge's frontend served thousands of merchants, implemented across many different Shopify themes. Inconsistent component patterns were creating bugs and UX inconsistencies.
-**T:** Establish component standards that product engineers could follow to ship consistently good UX at scale.
-**A:** Introduced Storybook for component documentation and visual regression testing; defined a component API convention; ran internal workshops to align the engineering team.
-**R:** New feature development had faster UI implementation; regressions in merchant-facing UX decreased; engineers had a shared vocabulary for UI decisions.
-**Reflection:** Component patterns are team infrastructure. The best ones encode decisions so engineers don't make them repeatedly — and when a decision needs to change, there's one place to change it.
-**Best for questions about:** WorkOS frontend interview, component systems, developer experience, React architecture
-
----
-
 ### [Testing Infrastructure] Recharge — Preventing Checkout Regressions
 **Source:** Report #027 — Hume AI Frontend
 **S:** At Recharge, the subscription widget touched thousands of merchants. A regression in a checkout flow had significant revenue impact downstream.
@@ -231,3 +210,39 @@ This file accumulates your best interview stories over time. Each evaluation (Bl
 **R:** Shipped on time; content managers had autonomy post-launch; no rollbacks.
 **Reflection:** I've never been blocked by an unfamiliar tech stack for long. Ramp-up time is real, but it's a fixed cost — not a recurring one.
 **Best for questions about:** Domain gap mitigation, learning velocity, technical adaptability
+
+---
+
+### [AI Tooling + Daily Practice] Claude Code Day-to-Day + Recharge Review Skill
+**Source:** Interview prep — AI tooling question (general-purpose story, 2026-04-22)
+**Scope note:** The Recharge skill was committed to the repo and available for anyone running Claude Code locally. It was NOT wired into CI or a pre-push hook, and adoption by other engineers is unknown. Do not frame as "team infrastructure," "adopted across the team," or "runs pre-PR" — that overclaims. Stick to "available to anyone who wanted to reach for it."
+**S:** AI coding tools arrived fast and most engineers were figuring out their own relationship with them in parallel. I wanted mine to be deliberate, not just vibes-based use.
+**T:** Develop a working practice with Claude Code that complemented judgment instead of replacing it, and make any useful piece of that practice available to teammates who wanted it.
+**A:** Day to day I live in Claude Code inside VS Code — editing, debugging, talking through implementations before I touch anything. At Recharge I built a custom Claude Code skill for LLM-assisted code review and committed it to the repo so it was there for anyone who wanted to reach for it during review. I didn't wire it into CI or require anyone else to use it.
+**R:** For my own work, the skill caught things I'd have missed (e.g., off-by-one on a config key I'd already read past). Availability for others: it was in the repo, anyone running Claude Code locally could pick it up; I didn't track or require adoption.
+**Reflection:** The honest pattern with these tools: they're good at boring consistency — matching existing patterns, filling in test cases, scaffolding — and bad at noticing when they're off. Where I spend my attention is figuring out which of those two modes I'm in before I take the suggestion. Building the skill also forced me to be explicit about what "good review" looked like on our codebase, which was useful on its own.
+**Best for questions about:** AI tooling fluency, daily practice with Claude Code / LLM coding assistants, "how do you use AI in your workflow," engineering judgment around AI output, contributing tooling to a team — NOT for "tell me about a tool I rolled out across the team" or "tell me about driving org-wide adoption."
+
+---
+
+### [Activation UX + Engineering Patterns] Recharge — Wizard Replacing the Canvas Builder
+**Source:** Public case study by design partner Zaid Ali Rasool (zaidalirasool.com/designing-activation-that-sticks)
+**Scope note:** Kaitlyn was the engineer; Zaid owned design and the FullStory research. Do NOT claim the research, the merchant interviews, the UX pattern call, or any voice-of-merchant framing. Engineering ownership = the implementation of progressive disclosure, dependency-driven step logic, smart defaults, and validation guardrails across Upsell All and Cross-Sell. Subscription Widget had insufficient data; Upsell Swap was also built but metrics not confirmed — leave both out unless interviewer asks. Outcomes are team outcomes she contributed to, now public via Zaid's writeup. **Use Zaid's exact numbers: in one instance, same-session deactivation cut from ~38% to ~9%, a 4.2× retention improvement. Earlier versions of this story used "~50%" / "2–4×" — those were approximations / a stated case-study goal, not the reported outcome. Don't go back to that framing.**
+**S:** Recharge's canvas builder let merchants ship setup fast but they often deactivated the same session — they'd configured something they didn't fully understand. Activation looked like a win but didn't stick.
+**T:** Build the wizard replacement across two flagship offerings (Upsell All, Cross-Sell) — slow the path enough that merchants understood what they were configuring, without giving up activation entirely.
+**A:** Implemented the wizard pattern: progressive disclosure (only one step expanded at a time), dependency-driven step logic (steps surface based on prior choices), smart defaults to reduce cognitive load, and validation/guardrail states (banners, tooltips, conditional messaging). Pushed back on patterns when implementation surfaced problems Design hadn't anticipated.
+**R:** In one offering, same-session deactivation dropped from ~38% to ~9% — a 4.2× retention improvement over the prior canvas builder.
+**Reflection:** Time-to-convert went up — that was the point, not a bug. The hardest part of the work wasn't the UI patterns themselves but trusting that slowing the user down was the right move when activation rate was the metric the team had historically optimized for. Worth surfacing as a tradeoff, not hiding.
+**Best for questions about:** Frontend implementation of complex stateful UI, engineering-design partnership, activation/onboarding flows, retention vs activation tradeoffs, "tell me about a project where the metric you optimized for changed" — NOT for "tell me about a UX research project" or "tell me about how you talked to customers."
+
+---
+
+### [Pairing + Onboarding] Recharge — Informal Mentoring on the Frontend Team
+**Source:** Recruiter follow-up to Lauren at Frontdoor — 2026-04-21
+**Scope note:** This is informal IC-level pairing, not a formal mentor program or direct reports. Use cv.md framing exactly: "did some pair programming with our QA engineer and with a new engineer who joined the frontend team." Don't promote to "led mentoring" or "trained" — pairing is the right verb.
+**S:** Recharge's frontend team had ongoing test-coverage and bug-investigation work alongside a new engineer joining the team during her tenure.
+**T:** Provide IC-level support — both to QA on test approaches and bug investigation, and to the new engineer through their ramp on the frontend codebase.
+**A:** Did pair programming with the QA engineer on test approaches and bug investigation; paired with the new engineer during onboarding to support their ramp on the frontend codebase.
+**R:** Informal but consistent week-to-week support that helped both teammates move faster on their work.
+**Reflection:** Pairing is one of the most underrated forms of IC leadership — it transfers context and judgment in a way docs can't, and it surfaces gaps in your own thinking when you have to explain them out loud.
+**Best for questions about:** Mentoring within a dev team, pair programming, onboarding teammates, IC leadership without direct reports — directly answers "tell me about your leadership/mentoring experience" for IC engineering interviews.

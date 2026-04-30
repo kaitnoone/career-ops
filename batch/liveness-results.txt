@@ -1,0 +1,34 @@
+Checking 25 URL(s)...
+
+⚠️ uncertain  https://www.linkedin.com/jobs/view/4363233991/
+           content present but no visible apply control found
+⚠️ uncertain  https://www.linkedin.com/jobs/view/4371122227/
+           content present but no visible apply control found
+✅ active     https://job-boards.greenhouse.io/pandadoc/jobs/7779001
+✅ active     https://job-boards.greenhouse.io/pandadoc/jobs/7557558
+✅ active     https://vercel.com/careers/design-engineer-us-5709080004
+✅ active     https://jobs.ashbyhq.com/higharc/da3e4a14-a3cb-4060-8a61-6ee23294d222
+✅ active     https://jobs.ashbyhq.com/higharc/6e1c2e07-b812-4e3e-ae44-9a55ed2c7f3f
+✅ active     https://jobs.ashbyhq.com/hellopatient/bfc01b2e-c1a8-40b9-9840-2c0e19ecf49d
+✅ active     https://jobs.ashbyhq.com/higharc/26f3d61d-5027-44c8-bd17-b3b748e0cc38
+✅ active     https://jobs.ashbyhq.com/hellopatient/330926e8-9557-493d-94d0-14461dd267f6
+❌ expired    https://jobs.polymer.co/apricot-health/39606
+           insufficient content — likely nav/footer only
+⚠️ uncertain  https://adhoc.hrmdirect.com/employment/job-opening.php?req=3659092&req_loc=1276301
+           content present but no visible apply control found
+✅ active     https://recruiting.paylocity.com/recruiting/jobs/Details/4024324/Transcard-Payments-LLC/Product-Solutions-Engineer
+✅ active     https://job-boards.greenhouse.io/hightouch/jobs/5842464004
+❌ expired    https://amplify.wd1.myworkdayjobs.com/en-US/Amplify_Careers/job/Remote---United-States/Product-Owner---Customer-Success---Technical-Onboarding_Req_12647
+           insufficient content — likely nav/footer only
+✅ active     https://posthog.com/careers/technical-account-manager
+✅ active     https://jobs.ashbyhq.com/clerk/cc13322d-892c-4fec-bf9f-07dc605343b3
+✅ active     https://job-boards.greenhouse.io/hightouch/jobs/5134194004
+✅ active     https://job-boards.greenhouse.io/hightouch/jobs/5535187004
+✅ active     https://jobs.ashbyhq.com/elevenlabs/275f43d0-b62d-401d-830c-7c1ac0e688aa
+✅ active     https://job-boards.greenhouse.io/contentful/jobs/7701583
+✅ active     https://job-boards.greenhouse.io/hightouch/jobs/5734303004
+✅ active     https://jobs.ashbyhq.com/n8n/53da0231-00c9-4aae-80e3-16d3a93c3381
+✅ active     https://jobs.ashbyhq.com/n8n/2b87bd9d-5354-40e2-9615-b72aa1b99dfa
+✅ active     https://www.thisdot.co/job/senior-software-engineer-javascript-remote
+
+Results: 20 active  2 expired  3 uncertain

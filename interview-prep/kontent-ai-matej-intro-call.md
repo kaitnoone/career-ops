@@ -1,7 +1,7 @@
 # Intro Call: Kontent.ai — Matěj Bystřický (Hiring Manager)
 
-**Date scheduled:** TBD — one of Fri 4/24, Mon 4/27, Wed 4/29, Thu 4/30 (45 min)
-**Format:** HM intro call — this is the real first-round, not a recruiter screen
+**Date scheduled:** Mon 2026-04-27 · 9:30 AM CDT (4:30 PM CEST) · ~45 min · Microsoft Teams
+**Format:** HM intro call — round 1 of 3 (Matěj → Michael Berry, Global Solutions Director US → case study with commercial org UK/US). The goal of this call is to advance to round 2.
 **Role:** Solutions Engineer (US) — full remote, ~$100K base, 5 weeks PTO, fully covered family healthcare
 **Companion report:** `reports/060-kontent-ai-solutions-engineer-2026-04-20.md` (deep dive — read before the call)
 **Demo project:** `~/Projects/kontent-ai-demo/` — minimal Next.js + Delivery SDK + Management SDK + webhook handler. See `NOTES.md` there for build status and pending work.
@@ -31,7 +31,7 @@ Then pivot into your interest in the role. Don't dwell on 2023. One beat is enou
 
 ## Core narrative (60–90 sec)
 
-> "9+ years in frontend across SaaS and client work — most recently at Recharge on the subscription checkout experience used by thousands of Shopify merchants. Before that, Shopify agency work at The Taproom on enterprise clients like Nestlé, Copper Cow, and InsideTracker — which was the SE motion in all but title: discovery, scoping, integration middleware, stakeholder alignment, handoff. And before that, 2.5 years at Gravity Works running CMS platform delivery on DNN and Drupal, with client training baked in. That's really where the headless CMS + client enablement pattern started for me."
+> "9+ years in frontend across SaaS and client work — most recently at Recharge on the subscription widget used by thousands of Shopify merchants. Before that, Shopify agency work at The Taproom on enterprise clients like Nestlé, Copper Cow, and InsideTracker — which was the SE motion in all but title: discovery, scoping, integration middleware, stakeholder alignment, handoff. And before that, 2.5 years at Gravity Works running CMS platform delivery on DNN and Drupal, with client training baked in. That's really where the CMS + client enablement pattern started for me."
 
 Adjust on the fly. If he leads with "tell me about yourself," that's the shape.
 
@@ -43,7 +43,7 @@ Adjust on the fly. If he leads with "tell me about yourself," that's the shape.
 
 Pick whichever fits his questions. Don't force all three.
 
-1. **The Taproom enterprise client work (Nestlé / Copper Cow / InsideTracker)** — Shopify + third-party vendor middleware, OAuth, partner APIs, client-facing scoping, on-time delivery, handoff. This is your strongest SE-motion analog. Offer as the case study he asks about.
+1. **The Taproom enterprise client work (Nestlé / Copper Cow / InsideTracker)** — Shopify + third-party vendor middleware, partner APIs, client-facing scoping, on-time delivery, handoff. This is your strongest SE-motion analog. Offer as the case study he asks about.
 2. **Gravity Works CMS platform delivery (DNN/Drupal, 2.5y)** — multi-CMS experience, client training, platform presentations. Proves you've lived inside CMS products, not just integrated with them.
 3. **Women's ERG co-lead at Recharge, partnered with executive leadership** — proves you can translate between technical and executive/business stakeholders. Use for the "can you handle sales conversations" question.
 
@@ -71,16 +71,19 @@ Don't negotiate hard on the intro call. This is a posture-setter, not a close.
 
 ## Questions to ask Matěj
 
-Pick 3–4 based on flow.
+Pick 3–4 based on flow. **Don't re-ask what he already answered in the LinkedIn DM** (interview flow shape, customer vertical mix, comp existence of bonus). Build on what he shared.
 
-**Procedural (SE-flavored):**
-- "What does the interview flow look like from here? Is there a technical evaluation or demo component?"
-- "How does your team structure evaluations — case-based, live prototyping, something else?"
+**On the case study round (since you know it's coming):**
+- "What does the case study round look like — how do you scope it, and what are the success criteria?"
+- "Is the case study tied to a real prospect/customer scenario, or is it a synthetic exercise?"
 
-**Role shape:**
-- "Who are the typical customers — DX-led (dev teams evaluating) or marketing-led (content teams evaluating), or both depending on the account?"
+**Role shape (building on what he shared):**
+- "You mentioned WebMD and Alaska Airlines as examples — what does an SE day look like with regulated-industry enterprise customers vs the SMB end of the book? Different motion entirely?"
 - "How does the SE team sit between sales and customer success? Where does your handoff to onboarding actually happen?"
 - "What would make someone successful in this role in the first 90 days vs 6 months?"
+
+**On Michael Berry (round 2 lead):**
+- "Anything you'd want me to be ready to talk through with Michael that's different from what we'll cover today?"
 
 **Team / culture:**
 - "How distributed is the team? I saw Kontent.ai spun from Kentico — is the center of gravity still Czech, or has it shifted with the US hiring?"
@@ -91,16 +94,41 @@ Pick 3–4 based on flow.
 
 ---
 
+## Questions on AI / Agentic CMS
+
+Kontent.ai's public positioning leans hard on AI agents — audits, governance, localization, "minutes instead of months," the whole Agentic CMS framing. This is genuinely interesting territory, and it's a place where your Claude Code skill at Recharge gives you a real conversation rather than a candidate-side question. Pick 2–3 from below — don't ask all of them.
+
+**The reality-check question (most useful):**
+- "Walk me through what one of the agents actually does for a customer day-to-day. Pick whichever — audits, governance, localization. I want a feel for what's shipping in production now vs what's roadmap."
+
+**Customer adoption / pull:**
+- "Are customers actively asking for agent-driven workflows, or is this Kontent.ai leading the market? Where on the adoption curve are content teams right now?"
+- "What does customer onboarding to the agentic side look like? Is there resistance from content ops folks who built careers around the manual workflows the agents are replacing?"
+
+**SE role intersection (the most relevant for you):**
+- "Where does the SE team sit in the Agentic CMS story? Are SEs building or customizing agents for prospects, demoing existing capability, or feeding product signal back from the field?"
+- "What does prospect education look like when the differentiator is agents? Is the SE conversation more 'here's what's possible' or 'here's how this becomes real for your team in 90 days'?"
+
+**Differentiation (if space — softer wording):**
+- "I'm noticing every headless CMS is announcing AI features right now. What's the angle Kontent.ai is taking that you think holds up over the next 12–18 months as that space gets crowded?"
+
+**Bridge to your Claude Code skill (only if it fits naturally — don't force it):**
+- "I built a Claude Code skill at Recharge that runs LLM-assisted code review on feature implementations — committed to the codebase, used by anyone on our team running Claude Code locally. Curious whether the SE team here uses AI tooling internally for prospect work, or if AI is mostly something you're surfacing for customers."
+
+**Read what comes back.** If Matěj describes a deeply-shipped, customer-led adoption story, the role is going to ask you to be a confident agentic-CMS evangelist. If he describes mostly roadmap and "we're investing heavily," you're walking into a market-shaping role where part of the job is bringing customers along — different posture, different prep for round 2.
+
+---
+
 ## Questions he'll likely ask you + handling
 
 **"Why SE instead of staying engineering?"**
-→ "I've been doing the SE motion inside engineering roles for years — client-facing work at The Taproom, stakeholder translation at Recharge. I want to do it officially, and Kontent.ai's product is one I'd genuinely want to demo."
+→ "Honestly, I miss knowing the customer we're doing the work for. The further I went into product engineering at Recharge, the more abstracted the merchant got — they were a data point in roadmap conversations, not someone I'd ever met. The thread goes back to college, when I sold cell phones — people would come in wanting the 99-cent phone, and my job was figuring out whether that would actually hold up for how they lived. Agency work in my 20s was the same shape. SE puts that touchpoint back in the job."
 
 **"How much Kontent.ai experience do you have?"**
-→ "None with Kontent.ai specifically. I've worked across CMS platforms — DNN and Drupal at Gravity Works, Shopify integrations at The Taproom — and the client-enablement motion is the same. Give me a week with the product and I'll have a working demo to walk through." *(This signals initiative — offer the demo on the call.)*
+→ "None with Kontent.ai in production specifically. I actually started building a small demo last week to get a feel for the SDKs — Delivery SDK read layer, Management SDK seed script, webhook handler with HMAC + ISR revalidation. Running against mocks right now since I didn't have a workspace to seed against. Happy to share the README or walk through it in the next round." *(This signals initiative — surfaces a real artifact without trying to demo on a 45-min intro call.)*
 
 **"You're a frontend engineer — can you handle sales conversations?"**
-→ Taproom enterprise clients (Nestlé, Copper Cow, InsideTracker) + the ERG/exec partnership. "The hardest conversation I've ever been in wasn't selling a feature — it was aligning executive sponsors on workplace policy."
+→ "Two arcs. Taproom enterprise clients — Nestlé, Copper Cow, InsideTracker — meant direct scoping and stakeholder management with people whose business depended on what we shipped. And before any of that, my college job selling cell phones, where the work was listening for what someone actually needed instead of what they came in asking for. That listening-and-translating motion is what makes a good SE conversation."
 
 **"Why did Recharge end?"**
 → "Recharge was nearly 4 years and I'm being intentional about what comes next — looking for a role where the human/technical bridge is an explicit asset." **DO NOT mention the RIF** — per memory rule.
@@ -113,13 +141,26 @@ Pick 3–4 based on flow.
 
 ---
 
-## The offer to make (strong SE move)
+## The demo move (you already have one)
 
-Before the call ends, offer to stand up a small demo:
+You already started a Kontent.ai demo on April 21 (`~/Projects/kontent-ai-demo/`). Pending pieces in `NOTES.md`. Don't try to walk through it live on a 45-min intro call. Surface it once, naturally, and offer to share or walk through in round 2:
 
-> "If it'd help you evaluate fit, I'd happily spin up a Kontent.ai project during your eval cycle — one content type, a small Next.js or Nuxt consumer, and walk through it. 'Show, don't tell' is how I've always approached client work."
+> "I actually started a small Kontent.ai project last week — one content type, a Next.js consumer with the Delivery + Management SDKs, and a webhook handler with HMAC + ISR revalidation. Running against mocks since I didn't have a workspace to seed against. Happy to share the README or walk through it with Michael in the next round if it'd help."
 
-This is the move that SE hiring managers respect. It signals initiative, de-risks the hire, and gives you a concrete artifact to bring to the next round.
+This signals initiative, de-risks the hire, and gives you a concrete artifact to bring to the case study round (round 3). Naming Michael in the offer also shows you remembered the process he laid out.
+
+---
+
+## Backup stories (hold for the right question)
+
+Don't volunteer these. Reach for them only if the prompt fits.
+
+### Cell phone retail (consultative listening)
+For "tell me about a customer interaction that taught you something" / "what makes a good SE in your view?":
+
+> "I sold cell phones in college. The customer almost always wanted the 99-cent phone, and my job was to figure out whether that would hold up to how they actually lived. Most of the time it wouldn't — construction guys on job sites, single moms doing kid logistics, even retirees who'd never used a touchscreen. The work was listening for what they actually needed, not pushing the easiest product to sell. Customers who trusted that came back."
+
+**Don't redeploy** if you've already used the cell-phone beat in the integrated "Why SE?" answer above. Once is sticky, twice is a tic.
 
 ---
 
