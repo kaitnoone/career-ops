@@ -2,6 +2,19 @@
 
 This file accumulates your best interview stories over time. Each evaluation (Block F) adds new stories here. Instead of memorizing 100 answers, maintain 5-10 deep stories that you can bend to answer almost any behavioral question.
 
+## ⚠ AUDIT NEEDED — Taproom story contamination (flagged 2026-05-03)
+
+The "Taproom Vendor API — Preventing the Incident" story (now pulled) was fabricated by AI in earlier sessions and propagated across this story bank and multiple reports. Other Taproom-anchored entries below may also contain fabricated specifics. Before next use, verify with Kaitlyn:
+
+- **"The Taproom — Shopify + Enterprise Vendors"** entry — overall middleware/themes work is real per memory, but "front-loaded hard conversations" reflection and "vendor APIs maintained across changes" result line came from the pulled story's narrative. Verify what's real.
+- **"Pre-Commit Validation — The Taproom Vendor Integration"** entry — a "POC for a poorly-documented third-party fulfillment vendor" — does Kaitlyn recall this?
+- **"Qualification Before Commitment — The Taproom Client Intake"** entry — "structured technical intake calls for every new client" — was Kaitlyn doing this as a frontend engineer, or is this a fabricated presales-shaped story?
+
+Pattern lock per `feedback_no_taproom_vendor_api_story`: if Kaitlyn didn't tell us the specifics, it's not a real proof point. Don't reuse Taproom stories from this bank without her sign-off.
+
+---
+
+
 ## How it works
 
 1. Every time `/career-ops oferta` generates Block F (Interview Plan), new STAR+R stories get appended here
@@ -158,14 +171,11 @@ This file accumulates your best interview stories over time. Each evaluation (Bl
 
 ---
 
-### [Proactive Risk Management] Taproom Vendor API Change — Preventing the Incident
-**Source:** Report #021 — n8n CSM
-**S:** One enterprise client's integration was drifting — their vendor API was publishing breaking changes in their changelog.
-**T:** Catch the problem before it became a support emergency or client incident.
-**A:** Monitored the vendor's changelog as part of ongoing maintenance; proactively alerted the client; proposed and implemented the fix before they noticed an issue.
-**R:** Zero-downtime for the client; they didn't have to file a support ticket; trust increased.
-**Reflection:** In account management, the best support is the support the client never knew they needed. If I'm reacting to incidents, I've already failed.
-**Best for questions about:** CSM proactive risk management, escalation prevention, account health monitoring
+### ~~[Proactive Risk Management] Taproom Vendor API Change — Preventing the Incident~~ — PULLED 2026-05-03
+
+**STATUS: PULLED. DO NOT USE.** Kaitlyn confirmed 2026-05-03 she does not recall this engagement. Story was fabricated by AI in earlier sessions and propagated across multiple reports and prep docs. See `feedback_no_taproom_vendor_api_story` memory.
+
+Per memory `feedback_no_taproom_vendor_api_story`: don't fabricate stories with believable shapes. If specifics weren't given by Kaitlyn, it's not a real proof point.
 
 ---
 
