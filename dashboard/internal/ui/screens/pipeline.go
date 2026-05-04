@@ -70,6 +70,8 @@ const (
 	filterApplied   = "applied"
 	filterInterview = "interview"
 	filterSkip      = "skip"
+	filterRejected  = "rejected"
+	filterDiscarded = "discarded"
 	filterTop       = "top"
 )
 
@@ -85,14 +87,16 @@ var pipelineTabs = []pipelineTab{
 	{filterInterview, "INTERVIEW"},
 	{filterTop, "TOP ≥4"},
 	{filterSkip, "SKIP"},
+	{filterRejected, "REJECTED"},
+	{filterDiscarded, "DISCARDED"},
 }
 
 var sortCycle = []string{sortScore, sortDate, sortCompany, sortStatus}
 
-var statusOptions = []string{"Networking", "Evaluated", "Applied", "Responded", "Interview", "Offer", "Rejected", "Discarded", "SKIP"}
+var statusOptions = []string{"Evaluated", "Applied", "Responded", "Interview", "Offer", "Rejected", "Discarded", "SKIP"}
 
 // statusGroupOrder defines display order for grouped view.
-var statusGroupOrder = []string{"interview", "offer", "responded", "applied", "evaluated", "networking", "skip", "rejected", "discarded"}
+var statusGroupOrder = []string{"interview", "offer", "responded", "applied", "evaluated", "skip", "rejected", "discarded"}
 
 // PipelineModel implements the career pipeline dashboard screen.
 type PipelineModel struct {
@@ -723,16 +727,24 @@ func (m PipelineModel) renderAppLine(app model.CareerApplication, selected bool)
 	padStyle := lipgloss.NewStyle().Padding(0, 2)
 
 	// Column widths
+	numW := 5   // "#123 "
 	scoreW := 5 // "4.5  "
 	dateW := 10
 	companyW := 16
 	statusW := 12
 	compW := 14
 	// Role gets remaining space
-	roleW := m.width - scoreW - dateW - companyW - statusW - compW - 12
+	roleW := m.width - numW - scoreW - dateW - companyW - statusW - compW - 13
 	if roleW < 15 {
 		roleW = 15
 	}
+
+	// Tracker number (fixed width)
+	numText := "#—"
+	if app.Number > 0 {
+		numText = fmt.Sprintf("#%d", app.Number)
+	}
+	numStyle := lipgloss.NewStyle().Foreground(m.theme.Blue).Bold(true).Width(numW)
 
 	// Score with color
 	scoreStyle := m.scoreStyle(app.Score)
@@ -767,7 +779,8 @@ func (m PipelineModel) renderAppLine(app model.CareerApplication, selected bool)
 		compText = compStyle.Render(comp)
 	}
 
-	line := fmt.Sprintf(" %s %s %s %s %s %s",
+	line := fmt.Sprintf(" %s %s %s %s %s %s %s",
+		numStyle.Render(truncateRunes(numText, numW)),
 		score,
 		dateStyle.Render(truncateRunes(dateText, dateW)),
 		companyStyle.Render(company),
