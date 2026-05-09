@@ -145,13 +145,15 @@ These were Colson's referral framings (per memory `project_qm_referral_intel`). 
 
 ### Bonus 4th story for problem-solving / AI-fluency questions
 
-**LHS Alumni matching logic (live now)** — ~60 sec
+**LHS Alumni matching logic (in progress)** — ~60 sec
 
-- **Setup:** Building a community app for an old high school. Needed to reconcile alumni records with future reservation users. Asked Claude how to handle.
+- **Setup:** Building a community app for my old high school. Need to reconcile alumni records with future claim-form submissions. Asked Claude how to handle.
 - **Tension:** Auto-merge on partial matches would risk wrong-merging two real alumni; rejecting all partial matches would block legitimate users. Either failure mode costs trust in a small community.
 - **Action:** Claude proposed a three-state outcome (matched / no_match / ambiguous). Pushed back on the ambiguous case for v1 — ambiguous goes to human review by a board member, not algorithmic auto-merge. The cost of a wrong-merge in a small alumni board > the cost of two minutes of human time.
-- **Result:** Three-state matching shipped in the bootstrap claim form (live 2026-04-30).
+- **Result:** Three-state matching is implemented locally in the matching layer; verification email (Slice C) and deployment are this week's work before going live.
 - **Why it lands:** AI as thinking partner + senior-IC trust-call about where to put the human-in-the-loop. Felix Agentic is making that decision at production scale — where do you trust the agent versus surface to a human analyst.
+
+**Honest framing rule (per memory `reference_lhs_alumni_project` 2026-05-03):** the app is NOT YET DEPLOYED. Use "building," "currently shipping," "working on this week" — never "live" or "shipped to production" until deploy.
 
 ---
 

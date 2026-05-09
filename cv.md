@@ -4,47 +4,46 @@
 
 ---
 
-Frontend engineer, 9+ years in SaaS. Multi-framework production work across Vue, Angular, React, and Liquid, with JavaScript, TypeScript, and API integrations throughout. I own complex features end to end and bridge product, engineering, and business stakeholders.
+Frontend engineer with 9+ years across SaaS, DTC ecommerce, and agency consulting. Multi-framework production work in Vue, Remix, Angular, and Liquid, with JavaScript, TypeScript, and API integrations throughout. Strongest in cross-functional rooms — partnering with product, design, and customer-success teams to translate business goals into shipped work.
 
 ---
 
 ## Experience
 
-### Recharge — Frontend Software Engineer
+### Recharge — Frontend Software Engineer (Vue → Remix)
 **August 2022 – April 2026** · rechargepayments.com
 
-- Built the wizard-based activation flow across Upsell All and Cross-Sell — replaced the prior canvas builder with progressive disclosure, dependency-driven steps, smart defaults, and validation guardrails. In one offering, same-session deactivation dropped from ~38% to ~9%, a 4.2× retention improvement over canvas-builder cohorts.
-- Brought UX judgment into engineering decisions and roadmap calls. Pushed for user-centered outcomes from product intuition and design sense, influencing what was prioritized.
-- Built a Claude Code skill for LLM-assisted code review and committed it to the codebase so any teammate running Claude Code locally could pick it up.
-- Paired with our QA engineer and a new frontend hire to help them ramp.
+- Built wizard-based activation flow across Upsell All and Cross-Sell — replaced the prior canvas builder with progressive disclosure, dependency-driven steps, smart defaults, and validation guardrails. In one offering, same-session deactivation dropped from ~38% to ~9%, a 4.2× retention improvement over canvas-builder cohorts.
+- Influenced engineering and roadmap decisions through UX advocacy, prioritizing user-centered outcomes informed by product intuition and design sense.
+- Built and shipped a Claude Code skill for LLM-assisted code review, available to any engineer using Claude Code locally.
+- Mentored a new frontend hire and partnered with QA on onboarding and quality processes.
 
-### Sleepme — Frontend Engineer
+### Sleepme — Frontend Engineer (Vue / Nuxt)
 **April 2022 – July 2022** · Sleep.me
 
-- Built the integration layer between the Nuxt frontend and Strapi CMS so non-technical site managers could own their content.
-- Led the middleware overhaul for a full company rebrand on a tight timeline.
-- Added Segment analytics to capture customer data and improve reporting.
+- Built the integration layer between the Nuxt frontend and Strapi CMS so non-technical site managers could own their content; led the middleware overhaul for a full company rebrand on a tight timeline.
 
-### Gitwit — Software Engineer
+### Gitwit — Software Engineer (Angular)
 **September 2021 – April 2022** · gitwit.com
 
-- Led the frontend rewrite of a $2M/year COVID child-care benefits platform serving essential workers. Navigated compliance, accessibility, and data-sensitivity requirements with the stakeholders involved.
+- Led the frontend rewrite of a $2M/year COVID child-care benefits platform serving essential workers.
+- Translated compliance, accessibility, and data-sensitivity requirements across legal, design, and engineering stakeholders into shipping milestones.
 - Gave a company-wide presentation on web accessibility standards that drove WCAG alignment across engineering and design.
 
-### The Taproom — Frontend Developer
+### The Taproom — Frontend Developer (Liquid / Shopify)
 **September 2020 – September 2021** · thetaproom.com
 
 - Built and maintained DTC ecommerce solutions for enterprise clients including Nestlé, Copper Cow Coffee, and InsideTracker. Owned the technical work: architecture, implementation, and technical scoping conversations with clients.
-- Wrote middleware between Shopify and third-party vendors; worked across API integrations and partner tooling.
 - Built custom subscription and theming solutions with clients directly, agreeing on requirements, scope, and tradeoffs so the work shipped on time.
 
-### Gravity Works Design & Development — Frontend Developer
+### Gravity Works Design & Development — Frontend Developer (DNN / Drupal)
 **April 2018 – September 2020** · gravityworksdesign.com
 
 - Built accessible, standards-compliant websites (WCAG) on DNN and Drupal, with clients involved throughout scoping and validation.
+- Shipped accessible work for the MSU Resource Center for Persons with Disabilities — keyboard-navigable multi-level megamenu with intentional tab-index, focus traps, and modal placement.
 - Ran client training and platform walkthroughs so stakeholders could manage their own content.
 
-### Intellicom, Inc — Frontend Developer
+### Intellicom, Inc — Frontend Developer (custom CMS)
 **August 2016 – April 2018** · intellicominc.com
 
 - Consulted directly with clients on technical requirements and custom CMS work; managed email hosting, web hosting, and DNS for them.
@@ -61,13 +60,23 @@ Frontend engineer, 9+ years in SaaS. Multi-framework production work across Vue,
 
 ---
 
+## Projects
+
+### Logan HS Alumni Management App — Solo Fullstack Build (Next.js 16 / Postgres / Drizzle)
+**2026 – Active**
+
+- Public claim form and admin-facing v1 alumni directory both live; backend matches submissions against a historical roster with a three-state outcome (matched / partial / no-match), wired up with shared client/server Zod validation and server actions.
+- Frontend: Radix Primitives + shadcn pattern with Tailwind tokens; accessible form with keyboard nav and focus management.
+
+---
+
 ## Skills
 
 **Product & Collaboration:** Agile, Scrum, backlog refinement, stakeholder management, product discovery, user story mapping, requirements writing
 
 **Client & Integration Work:** API integrations (REST, webhooks), data integration patterns, third-party vendor integration, secure file transfers (SFTP), security-conscious development, SQL, GraphQL, MongoDB
 
-**Languages & Frameworks:** JavaScript, TypeScript, React, Vue, Angular, Liquid, Python, PHP, HTML/CSS, Tailwind, Bootstrap
+**Languages & Frameworks:** JavaScript, TypeScript, React, Remix, Vue, Angular, Liquid, Python, PHP, HTML/CSS, Tailwind, Bootstrap
 
 **State Management & Data:** React Query, Redux
 
