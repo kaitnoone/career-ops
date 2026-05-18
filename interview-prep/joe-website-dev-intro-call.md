@@ -179,3 +179,20 @@ Drop the answers into this section and I'll sharpen the doc (recruiter-screen pr
 - **Prior conversation?** First contact via BONG
 - **How technical is he?** Moderate — franchise operator, not first-time business owner. Knows lead gen + marketing spend. Not a builder-founder, but not naive about digital either.
 - **Anything else you're taking into the call?** The critical first clarifier about whether the new business is gutter-adjacent or separate.
+
+---
+
+## Discovery call notes — 2026-05-13 (call happened; earlier 4/24 + 4/28 were no-shows, Joe re-initiated)
+
+**Granola transcript:** https://notes.granola.ai/t/b21ac6ca-1216-450f-ac98-af7afad14af2-00best9l
+**Email mismatch — confirm before sending anything:** Granola invite came from `joseph_fraley@hotmail.com`; Joe stated primary = `joesinthedesert@yahoo.com`. Prep doc had `joesinthedesert@yahoo.com`. Use the yahoo address; cc/confirm.
+
+**Business:** Coffee startup targeting Catholic church communities. Fresh-roasted (3–4 days old at ship). A % of profits donated back to participating churches. Start ~50 churches in OK; expand to other states later. Joe also owns Brothers Gutters Tulsa (separate — new business is NOT gutter-adjacent).
+
+**Site needs:** E-commerce online ordering. Clean, simple design for parishioners. Product descriptions + educational content (coffee origins). Subscription wanted but NOT immediate. Backend: order tracking/fulfillment, church-specific profit allocation, QuickBooks integration, CRM connectivity.
+
+**Technical read:** Joe = strong mechanical/technical background but limited computer skills. Wants to do basic updates himself after training. Simple, manageable, scalable. Platform talked about: Shopify or BigCommerce.
+
+**Timeline & his blockers:** Target 30–45 days. Blocked on HIS deps: logo (48hourslogo.com, ~next week), state licensing + warehouse approval, domain selection/registration, federal/state business registration.
+
+**Joe wants from Kaitlyn:** proposal with multiple scope options, rough pricing structure, domain-registration recommendation. Explicitly wants tiered pricing to minimize upfront cost.

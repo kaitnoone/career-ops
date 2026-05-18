@@ -65,7 +65,7 @@ Frontend engineer with 9+ years across SaaS, DTC ecommerce, and agency consultin
 ### Logan HS Alumni Management App — Solo Fullstack Build (Next.js 16 / Postgres / Drizzle)
 **2026 – Active**
 
-- Public claim form and admin-facing v1 alumni directory both live; backend matches submissions against a historical roster with a three-state outcome (matched / partial / no-match), wired up with shared client/server Zod validation and server actions.
+- Public claim form live in production and taking real alumni submissions, with a board-facing v1 admin directory; backend matches each submission against a historical roster with a three-state outcome (matched / partial / no-match), wired up with shared client/server Zod validation and server actions.
 - Frontend: Radix Primitives + shadcn pattern with Tailwind tokens; accessible form with keyboard nav and focus management.
 
 ---

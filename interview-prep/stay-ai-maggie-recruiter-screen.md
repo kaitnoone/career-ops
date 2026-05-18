@@ -99,4 +99,4 @@ Stay reached out to YOU. The screen is exploratory. You don't need to convince t
 1. Same-day brief thank-you to Maggie (~3 sentences, your warm/normal register per `feedback_thank_you_note_voice`)
 2. Update tracker entry for Stay (will need to add — currently in memory `user_stay_john_flaherty_channel`, not in applications.md)
 3. If anything substantive came up about the role / next round, add to memory
-4. If she mentions a specific role you'd be a fit for, that's the trigger to do a full A-G eval before any further commitment
+4. If she mentions a specific role you'd be a fit for, that's the trigger to do a full A-G eval before any further commitment 
